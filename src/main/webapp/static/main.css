@@ -1,0 +1,46 @@
+body {
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: cadetblue;
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+button {
+    align-self: center;
+    margin-left: 685px;
+    width: 150px;
+    height: 50px;
+    background-color: darkgray;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: grab;
+}
+
+button:hover {
+    background-color: sandybrown;
+}
+
+table {
+    margin-left: 545px;
+}
+hr {
+    height: 3px;
+    color: darkslateblue;
+}
+td {
+    border: 7px solid darkmagenta;
+    padding: 10px;
+    border-collapse: separate;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    empty-cells: show;
+}
